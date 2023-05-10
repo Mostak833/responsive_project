@@ -1,0 +1,80 @@
+/* Responsive Css Start */
+
+@media (max-width: 1360px) {
+  .header_item {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .header_logo h2 {
+    padding-left: 40px;
+  }
+
+  .header_logo {
+    width: 40%;
+  }
+  .header_menu {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1230px) {
+  .header_item {
+     max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .header_logo {
+    width: 30%;
+  }
+  .header_menu {
+    width: 70%;
+  }
+  .header_menu ul {
+    justify-content: end;
+  }
+}
+
+@media (max-width: 1090px) {
+  .header_logo {
+    width: 25%;
+  }
+  .header_menu {
+    width: 75%;
+  }
+
+  .header_logo h2 {
+    font-size: 28px;
+    margin-top: 14px;
+  }
+.header_menu ul {
+    text-align: center;
+}
+  .header_menu ul li a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 960px) {
+  .header_logo {
+    width: 100%;
+  }
+  .header_menu {
+    width: 100%;
+  }
+
+  .header_logo h2 {
+    font-size: 28px;
+    margin-top: 14px;
+    text-align: center;
+  }
+
+.header_menu ul {
+    text-align: center;
+}
+  .header_menu ul li a {
+    font-size: 18px;
+  }
+}
